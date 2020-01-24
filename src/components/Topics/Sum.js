@@ -8,7 +8,7 @@ this.state = {
     number2: 0,
     sum: null
   }
-}
+}g
 updateNumber1(val) {
   this.setState({ number1: parseInt(val, 10) });
 }

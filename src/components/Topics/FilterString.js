@@ -37,7 +37,7 @@ render(){
         <h4> Filter String</h4>
     <span className= "puzzleText"> Names: {JSON.stringify(this.state.names,null,10)}</span>
         <input className= "inputLine" onChange={(e)=>this.handleChange(e.target.value)}></input>
-        <button className="confirmationButton" onclick={()=> this.filterNames(this.state.userInput)}> Filter</button>
+        <button className="confirmationButton" onClick={()=> this.filterNames(this.state.userInput)}> Filter</button>
     <span className="resultBox filterStringRB"> Filtered Names: {JSON.stringify(this.state.filteredNames,null,10)}</span>
     </div>
     )
